@@ -5,11 +5,133 @@
         <meta name="viewport" content="width=device-width,inital-scale=1.0">
         <title>Elijah's Portfolio Website</title>
         <link rel="stylesheet"
-        href="https:"
+        href="https://cndjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        
+
+        <!-- Update these with your own fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100&family=M+PLUS+Code+Latin&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f1133e56f3.js" crossorigin="anonymous"></script>
+
+
+
+
     </head>
     <body>
+        <header>
+            <div class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+
+        <section class="intro " id="home">
+            <h1 clss="Section__title section__title--intro">
+                Hi, I am <strong>Elijah Morton </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Data Scientist</p>
+            <img src="img/Elijah.jfif" alt="a picture of Elijah Morton" class="intro__img">
+        </section>
+
+
+
+        <!-- My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>programming: Python, SQL</h3>    
+                    <p> I am experienced with </p>
+                </div> <!-- / service-->
+
+                <div class="service">
+                    <h3>Data visualization</h3>
+                    <p>With python, I have been</p>
+
+                </div> <!-- / service-->
+
+                <div class="service">
+                    <h3>Machine learning</h3>
+                    <p>I am learning how to develop ML algorithms</p>
+                </div> <!-- / service-->
+            </div> <!-- / services-->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">A Data Scientist based out of Atlanta</p>
+
+            <div class="about-me__body">
+                <p> I am a student at Georgia State University</p>
+                <p></p>
+            </div>
+
+            <img src="img/Elijah_2.jpg" alt="Elijah posing on fountain" class="about-me__img">
+        </section>
+
+        <!-- My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="Portfolio-o1.jpg" alt="" class="portfolio__img">
+                </a>
+
+                  <!-- Portfolio item 02-->
+                  <a href="#" class="portfolio__item">
+                    <img src="Portfolio-o1.jpg" alt="" class="portfolio__img">
+                </a>
+
+                  <!-- Portfolio item 03-->
+                  <a href="#" class="portfolio__item">
+                    <img src="Portfolio-o1.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- Footer-->
+        <footer class="footer">
+            <!-- replace with your own email address-->
+            <a href="mailto:elijahm.19@protonmail.com" class="footer__link">elijahm.19@protonmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Elijahm19"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link"href="https://www.linkedin.com/in/elijah-morton-4898591a3/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+
+        <script src="script.js"></script>
+
+
 
     </body>
-
-
 </html>
